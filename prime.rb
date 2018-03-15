@@ -6,6 +6,7 @@ if n/1 == n  && n/integer == 1
   else
   numbers.any? do |integer|
   n%integer != 0
+    end
   end
 end
 
@@ -16,4 +17,3 @@ end
 
   #    if n/1 == n  && n/integer == 1 || n%integer != 0
   #      return false
-  
