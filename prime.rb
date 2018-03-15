@@ -1,6 +1,6 @@
 
 def prime?(n)
-  numbers = (2..100).to_a
+  numbers = (-100..100).to_a
   if 0 < n || n == 1
     false
   else
