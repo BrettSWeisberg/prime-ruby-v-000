@@ -1,12 +1,8 @@
 
 def prime?(n)
-  inf = 1.0/0.0
-  numbers = (1..inf).to_a
-
+  numbers = (1..100).to_a
   numbers.each do |integer|
-
-   if n > 1 && n%integer > 0 && integer != n
+   if n/1 = n  && n/integer = 1 && n%interger != 0
      return true
    end
-end
 end
