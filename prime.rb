@@ -4,7 +4,9 @@ def prime?(n)
   if 0 < n &&
     numbers.any? do |integer|
     if 0 < integer
-    n/1 == n  && n/integer == 1 || n%integer != 0
+
+      if n/1 == n  && n/integer == 1 || n%integer != 0
+        return false
   end
   end
  end
