@@ -5,7 +5,7 @@ def prime?(n)
     false
   else
   numbers.all? do |integer|
-    n/integer != 0
+   n/1 == n  && n/integer == 1 || n%integer != 0
   end
   end
 end
