@@ -1,9 +1,11 @@
 
 def prime?(n)
   numbers = (-100..100).to_a
-  if 0 < n
+  if 0 < n && 
     numbers.any? do |integer|
+    if 0 < integer
     n/1 == n  && n/integer == 1 || n%integer != 0
+  end
   end
  end
 end
