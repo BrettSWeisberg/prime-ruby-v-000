@@ -1,7 +1,7 @@
 
 def prime?(n)
   numbers = (-100..100).to_a
-  if 0 < n || n == 1 
+  if 0 < n || n == 1
     false
   else
   numbers.all? do |integer|
