@@ -6,7 +6,7 @@ def prime?(n)
   numbers.each do |integer|
 
    if n > 1 && n%integer > 0 && integer != n
-     reuturn true
+     return true
    end
 end
 end
